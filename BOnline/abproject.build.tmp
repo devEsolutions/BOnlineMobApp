@@ -1,0 +1,92 @@
+{
+  "Framework": "Cordova",
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "ProjectGuid": "752b6ee0-c06d-420c-88cb-9151f974a753",
+  "AppIdentifier": "com.gulfnetcommunications.gulfnetapp",
+  "ProjectName": "GulfnetMobile",
+  "IsRunnable": "true",
+  "AndroidPermissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCOUNT_MANAGER",
+    "android.permission.BROADCAST_STICKY",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "CorePlugins": [
+    "cordova-plugin-battery-status",
+    "cordova-plugin-camera",
+    "cordova-plugin-console",
+    "cordova-plugin-contacts",
+    "cordova-plugin-device",
+    "cordova-plugin-device-motion",
+    "cordova-plugin-device-orientation",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-file",
+    "cordova-plugin-file-transfer",
+    "cordova-plugin-geolocation",
+    "cordova-plugin-globalization",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-media",
+    "cordova-plugin-media-capture",
+    "cordova-plugin-network-information",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-vibration",
+    "cordova-plugin-whitelist"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "iOSStatusBarStyle": "BlackTranslucent",
+  "AndroidHardwareAcceleration": "false",
+  "BundleVersion": "2.3",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "DisplayName": "Gulfnet",
+  "Author": "Gulfnet Communications",
+  "Description": "Gulfnet Communications",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [
+    "location"
+  ],
+  "AndroidVersionCode": "4",
+  "WP8Requirements": [],
+  "WP8Capabilities": [
+    "ID_CAP_IDENTITY_DEVICE",
+    "ID_CAP_LOCATION",
+    "ID_CAP_MAP",
+    "ID_CAP_NETWORKING",
+    "ID_CAP_PUSH_NOTIFICATION",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8TileTitle": "Gulfnet",
+  "WP8ProductID": "{752b6ee0-c06d-420c-88cb-9151f974a753}",
+  "WP8PublisherID": "{f1bb8ca8-ad15-4076-91ec-a2e3becaf06d}",
+  "WP8Publisher": "Gulfnet Communications",
+  "projectVersion": "1",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.gulfnetcommunications.gulfnetapp",
+  "iOSDeploymentTarget": "6.0",
+  "WPSdk": "8.0"
+}
