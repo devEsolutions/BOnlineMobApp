@@ -1,0 +1,88 @@
+<div data-role="view" id="buttongroup-home" data-show="PakageViewInit" data-layout="GulfnetWelcome">
+    <div class="head">&nbsp;</div>
+    <ul id="select-period" data-index="0">
+        <li>
+            1 Month
+        </li>        
+        <li>
+            6 Months
+        </li>
+        <li>
+            12 Months
+        </li>
+    </ul>
+    
+    <ul data-template="ul-template" data-bind="source: Packagelist1" data-role="listview" data-style="inset">
+    </ul>
+    <script id="ul-template" type="text/x-kendo-template">
+        <li>
+            <div  data-bind="text: Package" class="PItemNm"></div>
+            <div data-bind="text: AmountKWD" class="PItemVal"></div>
+        </li>
+    </script>
+    
+    <ul data-template="ul-template" data-bind="source: Packagelist6" data-role="listview" data-style="inset" style="display:none">
+    </ul>
+    <script id="ul-template" type="text/x-kendo-template">
+        <li>
+            <div data-bind="text: Package" class="PItemNm"></div>
+            <div data-bind="text: AmountKWD" class="PItemVal"></div>
+        </li>
+    </script>
+    
+    <ul data-template="ul-template" data-bind="source: Packagelist12" data-role="listview" data-style="inset" style="display:none">
+    </ul>
+    <script id="ul-template" type="text/x-kendo-template">
+         <li>
+            <div data-bind="text: Package" class="PItemNm"></div>
+            <div data-bind="text: AmountKWD" class="PItemVal"></div>
+        </li>
+    </script>    
+</div>
+
+
+
+
+<script>
+    function PakageViewInit() {
+        dfdPackages.done(GetPackages())
+            // We can chain done methods, too
+            .done(function(n) {
+               
+                  kendo.bind($("ul"), Packages);
+                /*
+                $("#stocks_tbl").kendoGrid({
+                    dataSource:{
+                        data:Packages.Packagelist1,
+                        pageSize:10
+                    },
+                    columns:[
+                        { field:"PackageName", title:"Package" },
+                        { field:"Amount", title:"Price", attributes:{class:"ob-right"}, format:"{0:c2}" }
+                        
+                    ],
+                    editable: false,
+                    navigatable:true,
+                    pageable:{
+                        input:true,
+                        numeric:true
+                    }
+                }).data("kendoGrid");
+                */
+                
+            });  
+        
+        var listviews = this.element.find("ul.km-listview");
+
+        $("#select-period").kendoMobileButtonGroup({
+            select: function() {
+                listviews.hide()
+                         .eq(this.selectedIndex)
+                         .show();
+            },
+            index: 0
+        });
+        
+        
+    }
+</script>

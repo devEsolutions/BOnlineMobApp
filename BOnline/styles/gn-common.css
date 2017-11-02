@@ -1,0 +1,1200 @@
+body
+{ 
+    font-family: 'Century Gothic', Arial, Tahoma, Verdana;
+    color: #333;
+}
+.km-root *
+{
+    font-family: 'Century Gothic', Arial, Tahoma, Verdana;
+}
+.km-content
+{
+    background-color: white; 
+    background-image: url('../styles/images/footer/login.png') !important; 
+    background-color: white  !important; 
+    background-repeat: no-repeat !important;
+    background-position: right bottom  !important;
+    -webkit-background-size:  auto 3em !important;
+    -moz-background-size: auto 3em !important;
+    -o-background-size:  auto 3rem !important;
+    background-size: auto  3rem !important;    
+}
+.km-tablet .km-content
+{
+    background-image: url('../styles/images/footer/footer.png') !important;       
+}
+
+.km-content .UserInfo
+{
+    padding-top: 0.8rem;
+}
+.km-touch-scrollbar
+{
+    background-color: #a4cd39; 
+}
+p{
+    clear:left;
+}
+.gnView
+{ 
+    border: 4px #00ABB5 solid !important;
+    -webkit-box-sizing: border-box !important; 
+    -moz-box-sizing: border-box !important; 
+    box-sizing: border-box !important; 
+    background-color: white;
+}
+.gnView .km-content
+{
+    
+}
+.head
+{
+    display: none;
+}
+/*Header*/
+
+.km-ios7 .km-header
+{
+    /*background-color: red  !important; */
+}
+.CommonHeader {
+    background-color: white !important;
+    background-image: url('../styles/images/header/navbg_new.png') !important;
+    background-position: left 1.5rem !important;
+    background-repeat: repeat-x !important;
+    background-size: 100% 7.1rem;
+    background-clip: padding-box;
+    /*padding-top: 4.5rem;*/
+    padding-bottom: 0;
+    /*min-height: 2rem !important;*/
+    height: 4rem !important;
+}
+.km-tablet .km-ios7 .CommonHeader,.km-tablet .km-ios6 .CommonHeader,.km-tablet .km-ios .CommonHeader{
+    background-position: left 1.45rem  !important;
+    
+}
+
+.transpHeader
+{
+    background-color: transparent  !important; 
+    border: 0  !important;
+    padding-top: 0 !important; 
+    background-image: url('../styles/images/header/logo.jpg') !important; 
+    background-repeat: no-repeat !important;
+    background-position: right bottom  !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain !important;
+    min-height: 7rem !important;
+    height: 4rem !important;    
+    display: block;
+}
+
+/*drawer button*/
+.GNMenuIcon{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.GNMenuIconHolder, .GNBackMenuIcon {
+    background-image: url('../styles/images/header/menu.png') !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain !important;
+    max-width: 2rem !important;
+    width: 2rem !important;
+    max-height: 1.9rem !important;
+    height: 2.9rem !important;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -0.8rem;
+    padding-bottom:1rem !important;
+}
+.GNMenuIconHolder + span {
+    display: inline-block;
+    padding-top: 0.4rem !important;
+    margin-top: 0 !important;
+    width: auto !important;
+    text-indent: 0 !important;
+}
+.GNMenuIconHolder + span:active {
+    color: white;
+}
+.km-v_button
+{
+    color: #fff !important;
+    margin: 0px !important; 
+    padding: 0px !important;
+    font-size: 1.3em !important;
+    min-height: 2em;
+    height: 2em;
+}
+.km-navbar .km-button
+{
+    /*margin-top: 0.17rem !important;*/
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    border: 0  !important;
+    box-shadow: 0 0 0 #fff, 0 0 0 #fff !important;
+    -webkit-box-shadow: 0 0 0 #fff, 0 0 0 #fff !important;
+}
+
+.km-tablet .km-ios7 .km-navbar .km-button,.km-tablet .km-ios6 .km-navbar .km-button,.km-tablet .km-ios .km-navbar .km-button
+{
+    margin-top: .1rem !important;
+}
+ 
+.km-tablet .km-android .km-navbar .km-button
+{
+    /* margin-top: -.25rem !important;*/
+    margin-top: .05rem !important;
+}
+
+
+/*login area*/
+.loginbox
+{
+    position: absolute; top: 30%; height: 14em; margin-top: -7rem; 
+    width: 100%;
+}
+.RegisterInfo{
+   
+}
+.errorLogin{
+    margin:1rem;
+    color:#555;
+    font-size:.8rem;
+}
+#olduser-label{
+    padding-right: 7rem !important;
+}
+#olduser-wrapper {
+    padding-top: 0.5rem !important;
+    /*margin-bottom: 0.5rem !important;*/
+}
+#olduser-wrapper + li input, #olduser-wrapper + li + li input {
+    margin-top: -0.75rem;
+}
+.km-ios7 .loginbox .km-list,
+.km-ios .loginbox  .km-list>li, 
+.km-ios6 .loginbox  .km-list>li
+, .km-android .loginbox .km-list
+{
+    border: 0 !important;
+}
+.km-ios7 .loginbox .km-list>li:first-child,
+.km-ios .loginbox .km-list>li:first-child,
+.km-android .loginbox .km-list>li:first-child
+{
+    border: 0 !important;
+}
+.km-ios7 .loginbox .km-list>li:last-child, 
+.km-ios .loginbox .km-list>li:last-child, 
+.km-android .loginbox .km-list>li:last-child
+{
+    border: 0 !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.buttonArea
+{
+    text-align: center;
+}
+/*list-vies*/
+.km-listview-wrapper
+{
+    clear: left;
+}
+/*Customer Info*/
+h1.welcome
+{
+    color: #00ABB5;
+    font-size: 1.2rem;
+}
+.CustomerInfoOuter
+{
+    display: block;
+    background-color: #f9f9f9;
+    padding-top: 0.8rem;
+    margin: 0;
+}
+.CustomerInfo
+{
+    
+    font-size: 1em;
+    margin: 0 1rem 1rem 1rem;
+    color: #333;
+    padding: 0.5rem 0 1rem 0;
+}
+.welcome
+{
+    margin-left: 1rem;
+}
+.ProfileInfo .welcome{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.GNBold
+{
+    color: #00ABB5 !important;
+    font-size: 1em;
+    
+    font-weight: 600;
+}
+.gnSubT
+{
+    font-size: 1em;
+    
+    font-weight: 600;
+}
+table.myInfo
+{
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-style: solid;
+    width: 100%;
+    border-color: #f3f3f3;
+}
+
+.myInfo td, .myInfo th
+{
+    margin: 0;
+    padding: 2px;
+    font-size: 1em;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    border-color: #f3f3f3;
+}
+.km-tablet .myInfo td, .myInfo th
+{
+    font-size: 1.1em; 
+}/*Inquiry form*/
+.InqForm
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #333;
+}
+.InqForm textarea
+{
+    width: 98%;
+    height: auto;
+    border: solid 2px #eee;
+    color: #333;   
+    
+}
+.InqForm input {
+    border: solid 2px #eee;
+    color: #333; 
+    -webkit-transition: box-shadow 0.3s, border 0.3s;
+    -moz-transition: box-shadow 0.3s, border 0.3s;
+    -o-transition: box-shadow 0.3s, border 0.3s;
+    transition: box-shadow 0.3s, border 0.3s;
+    padding:3px;
+}
+.InqForm textarea:focus, .InqForm textarea:hover, .InqForm input:focus, .InqForm input:hover{
+    border: solid 2px #00ABB5;    
+}
+.GnCustNmBox{
+    width:100%;
+    padding-bottom:3px;
+    color:red;
+}
+.GnCustNmBox input{
+    width:93%;
+}
+.GnDSLBox{
+    width:200px;
+    padding-bottom:3px;
+}
+.km-android textarea
+{
+    border: 1px #eee solid !important;
+}
+.Submit
+{
+    width: 40%;
+    text-align: right;
+    float:left;
+    
+}
+.Submit  .km-button {
+    padding:0.5rem 1rem ;
+}
+.SucessMsg
+{
+    color: #00ABB5;
+}
+
+/*drawer*/
+.km-tablet .km-drawer, .km-tablet [data-role=drawer]
+{
+    width: 350px;
+}
+.km-view-title
+{
+    display: block;
+}
+.km-ios7 .gnmenu  .km-list>li,
+.km-ios .gnmenu  .km-list>li,
+.km-ios6 .gnmenu  .km-list>li,
+.km-android .gnmenu  .km-list>li
+{
+    color: #111;
+    border: 0 !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.km-ios7 .gnmenu .km-group-title,
+.km-ios .gnmenu .km-group-title,
+.km-ios6 .gnmenu .km-group-title,
+.km-android .gnmenu .km-group-title
+{
+    font-size: 1.1rem;
+    position: -webkit-sticky;
+    margin-top: 0;
+    font-weight: bold;
+    text-transform: none; ;
+    color: #00ABB5;
+    border: 0;
+    background: #f3f3f3;
+    text-shadow: none;
+}
+.km-group-title
+{
+    text-indent: 0;
+}
+.km-android .gnmenu .km-group-title
+{
+    font-size: 1.2rem;
+}
+.km-ios7 .gnmenu .km-listgroup .km-group-title
+{
+    line-height: 2em;
+    border-top: 0;
+}
+.km-ios .gnmenu .km-group-title,
+.km-ios6 .gnmenu .km-group-title
+{
+    padding: 10px 2px;
+}
+
+.gnmenu .km-content
+{
+    background-color: #f3f3f3  !important;
+}
+.MenuSpe{
+     border-top:1px solid #ddd;
+     padding-top:.2rem;;
+}
+.km-on-ios .MenuSpe{
+     margin-top:.5rem;
+    padding-top:.5rem;
+    }
+.km-ios .MenuSpe{
+    border:0;
+    }
+li.MenuSpe .km-group-title{
+    padding:0;  
+}
+.MenuItems
+{
+    background-color: #f3f3f3  !important;
+    background-repeat: no-repeat !important;
+    background-position: 10px center  !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain !important;
+    padding-left: 55px !important;
+    margin: -0.5em -0.7em;
+    cursor: pointer; cursor: hand; 
+    color: #333;
+}
+.km-tablet .km-ios7 .MenuItems,.km-tablet .km-ios6 .MenuItems,.km-tablet .km-ios .MenuItems{
+    padding-left: 65px !important;
+}
+
+#MI_H, #MI_Login
+{
+    background-image: url('../styles/images/menu/Home.jpg') !important; 
+}
+ #MI_Profile
+{
+    background-image: url('../styles/images/menu/Profile.jpg') !important; 
+}
+#MI_Packages, .PckgIcon
+{
+    background-image: url('../styles/images/menu/Packages.jpg') !important; 
+}
+#MI_Offers
+{
+    background-image: url('../styles/images/menu/Offers.jpg') !important; 
+}
+#MI_Contact
+{
+    background-image: url('../styles/images/menu/ContactUs.jpg') !important; 
+}
+#MI_Locations
+{
+    background-image: url('../styles/images/menu/locations.jpg') !important; 
+}
+#MI_R
+{
+    background-image: url('../styles/images/menu/Renew.jpg') !important; 
+}
+#MI_U
+{
+    background-image: url('../styles/images/menu/Upgrade.jpg') !important; 
+}
+#MI_RU
+{
+    background-image: url('../styles/images/menu/RenewUpgrade.jpg') !important; 
+}
+#MI_Logout
+{
+    background-image: url('../styles/images/menu/Logout.jpg') !important; 
+}
+/*Social buttons*/
+.MInfoOuter{
+    
+}
+.social{    
+    display:block;
+    float:left;
+    width:60%;
+    padding-top:.3rem;
+}
+.social:after{
+    clear:left;
+    
+}
+.socialIcns{
+    float:left;
+    width:25%;
+    min-width:25%;
+    height:2rem;
+    background-repeat: no-repeat !important;
+    background-position: center left  !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain !important;
+    
+}
+#FB{
+    
+    background-image: url('../styles/images/social/facebook.png') !important; 
+}
+#IG{
+    
+     background-image: url('../styles/images/social/instagram.png') !important; 
+}
+#TW{
+    
+     background-image: url('../styles/images/social/twitter.png') !important; 
+}
+#YT{
+   
+     background-image: url('../styles/images/social/youtube.png') !important; 
+}
+
+/*My Internet buttons*/
+.buttonMIArea
+{
+    padding: 5px; 
+    width: 70%;
+    margin: 10px auto;
+}
+.km-ios .buttonMIArea .km-button, .km-ios7 .buttonMIArea  .km-button, 
+.km-android .buttonMIArea .km-button, .km-ios6 .buttonMIArea  .km-button, 
+.km-ios6 .buttonMIArea *:not(.km-tabstrip):not(.km-buttongroup)>.km-button
+{
+    margin-top: 10px;
+    padding-top: 10px; 
+    background-color: #f4f4f6 !important; 
+    background-repeat: no-repeat !important;
+    background-position: 10px center  !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain !important;
+    padding-left: 55px !important;
+    
+    clear: left;
+    display: block; 
+    padding: .7rem 1rem; 
+}
+
+.buttonMIArea .km-state-active
+{
+    color: #a4cd39 !important;
+}
+#Rbutton
+{ 
+    background-image: url('../styles/images/menu/Renew.jpg') !important; 
+}
+#Ubutton
+{
+    background-image: url('../styles/images/menu/Upgrade.jpg') !important; 
+}
+#RUbutton
+{
+    background-image: url('../styles/images/menu/RenewUpgrade.jpg') !important; 
+}
+.km-ios7 .buttonMIArea .km-button, 
+.km-ios .buttonMIArea .km-button,
+.km-android .buttonMIArea .km-button
+{
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: normal;
+    text-align: left;
+}
+.km-tablet .km-ios7 .buttonMIArea .km-button, 
+.km-tablet .km-ios .buttonMIArea .km-button,
+.km-tablet .km-android .buttonMIArea .km-button{
+    font-size: 1rem;
+}
+.km-ios7 .buttonMIArea .km-state-active,
+.km-ios .buttonMIArea .km-state-active
+{
+    -webkit-text-fill-color: #00ABB5;
+}
+/*button group*/
+.km-root .km-buttongroup .km-button
+{
+    padding: .3em .9em .3em;
+}
+/*info button*/
+.info
+{
+    width: 1rem;
+    height: 1rem;
+    background-image: url('../styles/images/Information.png') !important; 
+}
+
+/*Packages labels*/
+.PItemNm
+{
+    width: 50%;
+    float: left;
+}
+.PItemVal
+{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.PPeriod
+{
+    margin-left: 1rem;
+    margin-left: 1rem;
+    clear: left;
+    display: block;
+    text-align: center;
+}
+/*Subscriptions*/
+.SubcDSL
+{
+    width: 40%;
+}
+.SubcPckg
+{
+    width: 35%;
+}
+.SubcExp
+{
+    width: 40%;
+}
+.SubcSelect
+{
+    width: 20%;
+    /*
+    float:left;
+    clear:left;*/
+}
+.uPckgs .km-list label input[type=checkbox], .km-list input[type=radio]
+{
+    /* position: relative;
+    top: 50%;
+    right: .7em;
+    /*
+    margin-top: -0.5em;*/
+    background: #f3f3f3;
+}
+/*radio & checkboxes*/
+.km-listview-label input[type=radio]
+{
+    width: 1.1em;
+    height: 1.1em; 
+}
+/*renew/ upgrade/ r & u */
+#RContent, .OrderInfo, #UpgContent, #RUpgContent
+{ 
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    clear: left;
+}
+.km-tablet #RContent,.km-tablet .OrderInfo,.km-tablet #UpgContent,.km-tablet #RUpgContent{
+    font-size: 1.1rem;
+}
+#RContent .buttonArea, .OrderInfo  .buttonArea, #UpgContent  .buttonArea, #RUpgContent  .buttonArea
+{
+    margin-top: 1.5rem;
+}
+
+
+.uPckgs
+{
+    clear: left;
+}
+.selectOpt
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    clear: left;
+}
+.termC
+{
+    clear: left;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    color: #00ABB5;
+    font-size: 1em;
+    cursor: pointer; cursor: hand; 
+}
+.termC a:link
+{
+    cursor: pointer; cursor: hand; 
+    /*text-decoration:none;*/
+}
+
+#v_terms .km-content
+{
+    /*padding:1rem 0;*/
+}
+#v_terms .head
+{
+    display: block;
+}
+.TCHeader
+{
+    display: block;
+    width: 100%;
+    background-color:white;
+     clear:left;
+    height: auto;
+    min-height: 2.4rem;
+
+}
+.TCTitle
+{
+    text-align: left; 
+    padding: .5rem; 
+    clear: left;
+    width: 48%;
+    float: left;
+    color: #00ABB5;
+     background-color:white;
+}
+.TCBtnC
+{
+    text-align: center;
+    float: right;
+    padding-top:.1rem;
+     background-color:white;
+}
+.TCBtn
+{
+    text-align: center;
+    padding: 0.1rem .5rem  !important;
+}
+
+.english
+{
+    text-align: justify;
+    padding: .5rem .6rem .5rem .5rem;
+    vertical-align:top;
+    font-size:0.9rem;
+}
+.arabic
+{
+    text-align: justify;
+    padding: .5rem .5rem .5rem .6rem;
+    vertical-align:top;
+    direction: rtl;
+    font-size:0.9rem;
+}
+
+.CItemNm
+{
+    width: 50%;
+    float: left;
+    clear: left;
+    padding: 5px 0;
+}
+.CItemVal
+{
+    width: 50%;
+    float: left;
+    padding: 5px 0;
+}
+.PRUItemNm
+{
+    width: 40%;
+    padding-left: 2em;
+    float: left;
+}
+.PRUItemVal
+{
+    min-width: 30%; 
+    text-align: right;
+    margin-right: 2rem;
+}
+.PRUSelect
+{
+    width: 5%; 
+}
+
+.PRUItemD
+{
+    width: 10%; 
+}
+#AmntToPay{
+    width: 50%;
+    float: left;
+    padding: 5px 0;
+}
+.PayContainer .km-scroll-container{
+    height:93%;
+}
+/*Order Confirmation*/
+.OrderInfo
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.OrderInfo p
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.OrderInfo .CItemVal
+{
+    color: #00ABB5;
+}
+.OrderInfo a:link{
+     cursor: pointer; cursor: hand; 
+    color:#00ABB5;
+}
+#modalview-OrdInfo{
+    background-color:white;
+}
+.ConfEHeader{
+    margin-bottom: 5px;
+    text-align: center; 
+    padding: 5px;
+    margin: 5px 5px 10px 5px;
+    border: 1px solid #00ABB5;
+    float: none; 
+    clear: left; 
+    display: block;
+    background-color:white;
+}
+.ConfC{
+    padding:1rem .5rem;
+    text-align: center; 
+}
+.ConfEBtnC{
+    text-align: center;    
+}
+.ConfEBtn
+{
+    
+}
+.gLink,  .gLink:link{
+    cursor: pointer; cursor: hand; 
+    color:#00ABB5 !important;
+    text-decoration: underline;
+}
+/*detail button*/
+.km-detail
+{
+    right: 2em;
+}
+
+/*map*/
+.locationInfo
+{
+    font-size: 0.9rem;
+    color: #333;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top:.5rem;
+}
+.locationInfodrp{
+    text-align:center;
+     padding-top:.5rem;
+}
+#map_canvas
+{
+    margin: 5px 1rem; 
+    min-height: 250px;
+    height: 100%;
+    clear: left;
+    float: none;
+}
+/*Model View*/
+.clear
+{
+    float: none;
+    clear: left;
+}
+.km-ios7 #modalview-PInfo .km-list>li, .km-ios #modalview-PInfo .km-list>li, .km-ios6 #modalview-PInfo .km-list>li, .km-android #modalview-PInfo  .km-list>li
+{
+    font-size: 1rem;
+}
+
+#modalview-PInfo .head
+{
+    margin-bottom: 5px;
+    text-align: center; 
+    padding: 5px;
+    margin: 5px 5px 10px 5px;
+    border: 1px solid #00ABB5;
+    float: none; 
+    clear: left; 
+    display: block;
+}
+
+#modalview-PInfo-button
+{
+    display: block;
+    text-align: center;
+    margin: .6em .8em;
+    font-size: 1.2em;
+}
+    
+#modalview-PInfo label
+{
+    display: inline-block;
+    width: 100%;
+}
+.km-ios #modalview-PInfo .km-button,
+.km-ios #modalview-PInfo .km-header,
+.km-blackberry #modalview-PInfo .km-navbar
+{
+    background-color: #000;
+}    
+
+.km-ios #modalview-PInfo .km-button:active,
+.km-ios #modalview-PInfo .km-state-active
+{
+    background-color: #2e2e2e;
+}
+
+.km-ios #modalview-PInfo #modalview-PInfo-button
+{
+    background-color: Green;
+    color: #fff;
+}
+
+.km-tablet .km-ios #modalview-PInfo .km-view-title
+{
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, .5);
+}
+.PITitle
+{
+    color: #00ABB5;
+    clear: left;
+    font-weight: bold;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+.PILbl
+{
+    width: 80%;
+    float: left;
+    clear: left;
+}
+.PIData
+{
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+.PIClose
+{
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
+.PIClose  .km-text
+{
+    color: #fff;
+}
+/*offers*/
+#v_offers .km-list>li
+{
+    padding: .5em .15em;
+}
+#wCal
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-width: 10px;
+}
+.error
+{
+    color: red;
+}
+
+/*validations*/
+
+input.error {
+    background: red;
+    color: white;
+}
+label.error {
+    color: red;
+}
+.k-invalid{
+    color: red !important;
+}
+#v_login .k-invalid-msg, #v_profile .k-invalid-msg{
+    color: red;
+    display:none !important;
+    clear:left;
+}
+
+#modalview-OrdInfo .k-invalid-msg{   
+     color: red;
+    clear:left;
+}
+
+/*footer*/
+.GNFooter
+{
+    /*
+    background-image: url('../styles/images/footer/login.png') !important; 
+    background-color: white  !important; 
+    background-repeat: no-repeat !important;
+    background-position: right top  !important;
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    -o-background-size: contain !important;
+    background-size: contain !important;
+    min-height: 3rem !important;
+    max-height: 3rem !important;
+    height: 3rem !important;
+   */
+}
+.km-footer{
+    /*
+     background-color: white  !important; 
+    width:100%;
+    height: 3rem !important;*/
+}
+
+/* All Smartphones in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* All Smartphones in landscape ----------- */
+@media only screen 
+and (min-width: 321px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* All Smartphones in portrait ----------- */
+@media only screen 
+and (max-width: 479px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/***** ANDROID DEVICES *****/
+
+/* Android 240 X 320 ----------- */
+@media only screen
+and (max-width: 241px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Android(Samsung Galaxy) in portrait 380 X 685 ----------- */
+@media only screen
+and (min-width: 375px)
+and (max-width: 385px)
+{
+    /* YOUR STYLE GOES HERE */
+    
+}
+
+/* Android(Samsung Galaxy) in Landscape 685 X  380 ----------- */
+@media only screen
+and (min-width: 680px)
+and (max-width: 690px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Kindle Portrait 600 X 1024 ----------- */
+@media only screen
+and (min-width: 595px)
+and (max-width: 610px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Kindle Landscape 1024 X 600 ----------- */
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1030px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/***** ALL GENERATION IPADS *****/
+
+/* iPads in portrait and landscape----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)
+{
+    /* YOUR STYLE GOES HERE */  
+}
+
+/* iPad in landscape----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* iPad in portrait----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/*  Galaxy Note2 - Portrait */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-height: 1200px) and (max-device-height: 1300px) and (orientation: portrait)
+{
+    .km-android
+    {
+        font-size: 1.2rem;
+    }
+}
+
+/*  Galaxy Note2 - landscape Due to the Screen Height and Width is changing during orientation changes */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 1270px) and (max-device-width: 1300px) and (orientation: landscape)
+{
+   
+}
+
+/***** Retina IPAD 3 & 4*****/
+
+/* Retina iPad 3 & 4 in portrait and landscape----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Retina iPad 3 & 4 in landscape----------- */
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/***** IPAD 1 & 2 (ALSO IPAD MINI)*****/
+
+/* iPad 1 & 2 in portrait and landscape ----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* iPad 1 & 2 in landscape ----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* iPad 1 & 2 in portrait ----------- */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width: 1224px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width: 1824px)
+{
+    /* YOUR STYLE GOES HERE */
+}
+
+/* Only iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5) ,
+only screen and (min-device-pixel-ratio: 1.5)
+{
+    /* YOUR STYLE GOES HERE */
+}

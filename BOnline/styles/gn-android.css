@@ -1,0 +1,215 @@
+.km-android{
+    font-size:1.05em;
+}
+.km-android, .km-android .km-content
+{
+    background-color: white; 
+    color: #333333;
+    font-weight:normal;
+}
+
+.km-android .km-widget
+{
+    color: #333333;
+}
+.km-android .km-touch-scrollbar{
+    background-color: #a4cd39; 
+}
+h3{
+    color: #00abb5;
+}
+ .km-android .km-content{
+    
+    background-color: #fff;
+}
+.km-android .km-header{
+    box-shadow:0 0 0 #fff,0 0 0 #fff;
+    -webkit-box-shadow:0 0 0 #fff,0 0 0 #fff;
+}
+/*contact form*/
+.km-android .GnCustNmBox input{
+    width:93%;
+}
+
+/*stop anroid style from switching header and footer*/
+.km-root .km-android .km-view {
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+}
+/*login*/
+.km-android  .km-switch-container {
+    background-color: #CCC !important;
+}
+.km-android .km-switch-on .km-switch-handle {
+    background-color: #00ABB5 !important;
+    color: white !important;
+}
+.km-android  .km-switch-off .km-switch-handle {
+    background-color: rgb(237, 238, 238) !important;
+    color: gray !important;
+}
+
+.km-android #olduser-wrapper + li + li {
+    border-top: 1px solid #eee !important;
+}
+/*buttons*/
+.km-android .km-button
+{
+     background-color: #00abb5; 
+    color: #fff;    
+    border-color: #00abb5;
+    padding: 0.5rem 3rem;    
+    font-size:1.1rem;
+    
+}
+.km-android .km-button:active, .km-android .km-button.km-state-active
+{
+    background-color: #00abb5;
+    color: #333333; 
+}
+/*button group*/
+.km-android  .km-buttongroup .km-button{
+    font-size:1em;
+    text-shadow: none;
+}
+.km-android  .km-buttongroup .km-button
+{
+    background-color: white;
+    color: #333333;
+    font-weight: normal;
+    box-shadow:none;
+-webkit-box-shadow: none;
+    background-image:none;
+   text-shadow: none;
+    padding: .3em 1em;
+    border-color: #00ABB5;
+}
+.km-android  .km-buttongroup>*.km-state-active
+{
+    background-color: #00abb5;
+    color: white;
+    background-image:none;
+   
+}
+/*listview*/
+.km-android .km-list>li
+{
+    font-size: 1rem;
+    border-bottom:0;
+    border-top:1px solid #eee;
+    border-image:none;
+     color: #333333 ;
+    line-height: 1.3rem;
+}
+.km-android .km-list>li:first-child
+{
+    border-image:none;
+     color: #333333 ;
+    border:0;
+}
+.km-android .km-list>li:last-child
+{
+    border-bottom:0;
+    border-top:1px solid #eee;
+    /*box-shadow: none;*/
+    /*-webkit-box-shadow: none;*/
+}
+/*textboxes*/
+.km-android input[type=text]:not(.k-input),.km-android .km-list input[type=password],.km-android .km-list input[type=tel],.km-android .km-list input[type=email], .km-android input[type=email]{
+    border:1px #edeeee solid;
+     background-color:#edeeee;
+     color: #333333 ;
+    background-image:none;
+    padding: .2em;
+}
+.km-android input[type=text]:not(.k-input):focus,.km-android .km-list input[type=password]:focus,.km-list input[type=tel]:focus,.km-android .km-list input[type=email]:focus, .km-android input[type=email]:focus{
+    border:1px #00abb5 solid;
+    background-color: white;
+    background-image:none;
+}
+/*navigation*/
+.km-android .km-navbar [class*=item] .km-button{
+    padding:0 !important;
+}
+.km-android .km-navbar .km-leftitem, .km-android .km-navbar .km-rightitem, .km-android .km-navbar .km-leftitem:before,.km-android .km-navbar .km-rightitem:before{
+    height:100% !important;
+    /*background-color:grey;*/
+    
+}
+
+.km-android .MenuItems{
+ background-position: left center  !important;   
+}
+/*title area*/
+
+.km-android .km-view-title
+{
+    visibility:visible;
+    /*margin-top:7px;
+    margin-left:30px;*/
+    text-align:left;
+    font-size:1.2rem;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color:#fff !important;   
+    line-height:1.2em !important;
+    font-weight:normal;
+    padding:0.3rem 2rem;
+}
+/*list view radio*/
+.km-android .km-listview-label input[type=radio], .km-android  input[type=checkbox] {
+border: 1px solid #00abb5;
+box-shadow: 0 0 1px #00ABB5;
+-webkit-box-shadow: 0 0 1px #00abb5;
+    width:1.1em;
+    height:1.1em; 
+
+}
+.km-android .km-listview-label input[type=radio]:checked:after, .km-android  input[type=checkbox]:checked:after {
+background: #00abb5;
+box-shadow: 0 0 3px #00ABB5;
+-webkit-box-shadow: 0 0 3px #00ABB5;
+}
+/*dropdown*/
+.km-android select:not([multiple]){    
+    color:#333333;
+    border:1px #333333 solid;
+    padding: .2em .4em;
+    background-size: auto 150%;
+}
+.km-android select:not([multiple]):focus, .km-android .k-dropdown .k-state-focused{
+    background:#f3f3f3;
+    
+}
+
+/*active state*/
+.km-android .km-navbar .km-state-active,.km-android .km-toolbar .km-state-active,.km-android .km-detail.km-state-active,.km-android .km-state-active .km-detail,.km-android .km-state-active .km-listview-link,.km-android .km-state-active .km-listview-label{
+    background:transparent;
+    color:#00ABB5;
+}
+
+/*detail button*/
+.km-detail{
+    left:0;
+    
+}
+.km-root .km-android .km-detail{
+    background:#00ABB5;;
+    width:1.1em;
+    height:1.1em;
+    
+    font-size:1.1em;
+    margin-top: 7px;
+    color:#fff;
+}
+.km-android .km-detail .km-icon, .km-android .km-detail .km-icon:after, .km-android .km-detail .km-icon:before, .km-root .km-android .km-detail:before, .km-root .km-android .km-detail:after {
+    line-height:1.2em;
+}
+/*modalview*/
+.km-android .km-modalview .km-content{
+    background:#fff;
+}
+/*drawer*/
+.km-android .gnmenu .km-list>li{
+    font-size:1.1rem;
+}

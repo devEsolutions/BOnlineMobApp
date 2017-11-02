@@ -1,0 +1,19 @@
+<div id="tabstrip-login1"
+     data-role="view"  data-stretch="true" 
+     data-title=""
+     data-model="app.loginService.viewModel" data-layout="GulfnetWelcome">
+
+    <div class="view-content">
+        <div class="loginbox">
+            <div style="clear:left;"></div>
+            <h1 class="welcome" data-bind="visible: isLoggedIn">
+                Welcome <span data-bind="text: customerName"></span>!
+            </h1>
+            <div>Your Speed till <span data-bind="text: expDate"></span> is <span data-bind="text: speed"></span></div>
+            
+            <div class="buttonArea">
+                <input type="submit" id="logout" data-role="button" data-bind="click: onLogout, visible: isLoggedIn" class="login-button" value="Logout" />
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,45 +1,84 @@
 {
-  "ProjectName": "BOnline",
-  "ProjectGuid": "880f297a-eea8-40f4-979d-484eca9c93ea",
-  "projectVersion": 1,
-  "AppIdentifier": "com.telerik.BOnline",
-  "DisplayName": "BOnline",
-  "Author": "",
-  "Description": "BOnline",
-  "BundleVersion": "1.0",
-  "AndroidVersionCode": "1",
-  "iOSDeviceFamily": [
-    "1",
-    "2"
-  ],
-  "iOSBackgroundMode": [],
+  "ProjectGuid": "752b6ee0-c06d-420c-88cb-9151f974a753",
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "6.4.0",
+  "AppIdentifier": "com.gulfnetcommunications.gulfnetapp",
+  "ProjectName": "GulfnetMobile",
+  "IsRunnable": "true",
+  "FrameworkVersion": "3.7.0",
   "AndroidPermissions": [
-    "android.permission.INTERNET"
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCOUNT_MANAGER",
+    "android.permission.BROADCAST_STICKY",
+    "android.permission.CAMERA",
+    "android.permission.GET_ACCOUNTS",
+    "android.permission.INTERNET",
+    "android.permission.MANAGE_ACCOUNTS",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.RECEIVE_SMS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.VIBRATE",
+    "android.permission.WRITE_CONTACTS",
+    "android.permission.WRITE_EXTERNAL_STORAGE"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.console",
+    "org.apache.cordova.device",
+    "org.apache.cordova.device-motion",
+    "org.apache.cordova.device-orientation",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.geolocation",
+    "org.apache.cordova.globalization",
+    "org.apache.cordova.inappbrowser",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar",
+    "org.apache.cordova.vibration"
   ],
   "DeviceOrientations": [
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "true",
-  "iOSStatusBarStyle": "Default",
-  "Framework": "Cordova",
-  "WP8TileTitle": "",
-  "WP8Publisher": "",
-  "WP8Capabilities": [
-    "ID_CAP_NETWORKING",
-    "ID_CAP_WEBBROWSERCOMPONENT"
-  ],
-  "WP8Requirements": [],
-  "WP8PublisherID": "{bdf2146b-891e-4001-9255-50e07abc6f8f}",
-  "WP8ProductID": "{ed03f49f-0361-408b-b3be-102dc5f2c807}",
-  "WPSdk": "8.0",
-  "WP8PackageIdentityName": "1234Telerik.BOnline",
-  "WP8WindowsPublisherName": "CN=Telerik",
+  "iOSStatusBarStyle": "BlackTranslucent",
+  "AndroidHardwareAcceleration": "false",
+  "BundleVersion": "2.3",
   "WP8SupportedResolutions": [
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
-  ]
+  ],
+  "DisplayName": "Gulfnet",
+  "Author": "Gulfnet Communications",
+  "Description": "Gulfnet Communications",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [
+    "location"
+  ],
+  "AndroidVersionCode": "4",
+  "WP8Requirements": [],
+  "WP8Capabilities": [
+    "ID_CAP_IDENTITY_DEVICE",
+    "ID_CAP_LOCATION",
+    "ID_CAP_MAP",
+    "ID_CAP_NETWORKING",
+    "ID_CAP_PUSH_NOTIFICATION",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8TileTitle": "Gulfnet",
+  "WP8ProductID": "{752b6ee0-c06d-420c-88cb-9151f974a753}",
+  "WP8PublisherID": "{f1bb8ca8-ad15-4076-91ec-a2e3becaf06d}",
+  "WP8Publisher": "Gulfnet Communications",
+  "Framework": "Cordova",
+  "projectVersion": "1",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.gulfnetcommunications.gulfnetapp",
+  "iOSDeploymentTarget": "6.0",
+  "WPSdk": "8.0"
 }
